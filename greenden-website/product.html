@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenden Products</title>
+    <!--Tailwind CSS CDN Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav
+      class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10"
+    >
+      <h1 class="text-2xl">Greenden</h1>
+      <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 md:hidden"
+        width="24"
+        height="24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+        />
+      </svg>
+
+      <ul class="flex gap-5 text-gray-600 md:flex">
+        <li class="hover:underline hover:text-black hidden md:flex">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="hover:underline hover:text-black hidden md:flex">
+          <a href="./product.html">Product</a>
+        </li>
+        <li class="hover:underline hover:text-black hidden md:flex">
+          <a href="./contact.html">Contact</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+    <!--Our Products-->
+    <section class="text-center">
+      <h2 class="text-3xl font-bold mt-16">Our Products</h2>
+      <input
+        type="text"
+        class="border border-black p-2 w-3/4 mt-5"
+        placeholder="Search for a product here.."
+      />
+      <div class="grid grid-cols-2 mt-6 md:grid-cols-4">
+        <div>
+          <img
+            src="./img/Plant_1.png"
+            class="overflow-visible inline-block transform hover:shadow-xl hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Rose Plant <br />
+            $20
+          </p>
+        </div>
+        <div>
+          <img
+            src="./img/Plant_2.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Snake Plant <br />
+            $18
+          </p>
+        </div>
+        <div>
+          <img
+            src="./img/Plant_3.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Fern Plant <br />
+            $16
+          </p>
+        </div>
+        <div>
+          <img
+            src="./img/Plant_7.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Carnation Plant <br />
+            $30
+          </p>
+        </div>
+         <div>
+          <img
+            src="./img/Plant_4.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Hydrangea Plant <br />
+            $26
+          </p>
+        </div>
+         <div>
+          <img
+            src="./img/Plant_5.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Baby Rubber Plant <br />
+            $20
+          </p>
+        </div>
+         <div>
+          <img
+            src="./img/Plant_6.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Hibiscus Plant <br />
+            $25
+          </p>
+        </div>
+         <div>
+          <img
+            src="./img/Plant_8.png"
+            class="overflow-visible inline-block hover:shadow-xl transform hover:-translate-y-2 mt-10"
+          />
+          <p class="mt-3">
+            Orchid Plant <br />
+            $35
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+     <section class="bg-green-100 mt-5 p-10 pl-24 flex flex-col gap-5">
+    <h2 class="font-bold text-4xl ">Greenden</h2>
+    <p>The Standard chuck of Lorem ipsum used since the 1500s is reproduced below for those interested</p>
+    <p>&copy 2025 Greenday.com</p>
+  </section>
+  </body>
+</html>
