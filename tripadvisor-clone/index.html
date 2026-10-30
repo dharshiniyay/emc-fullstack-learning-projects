@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+          integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation Wrapper -->
+    <div class="nav-wrap">
+        <div class="navbar">
+            <!-- Logo Section -->
+            <div class="navbar__1">
+                <img src="https://static.tacdn.com/img2/brand_refresh_2025/logos/wordmark.svg" alt="Tripadvisor Logo"/>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="navbar__2">
+                <p>Discover</p>
+                <p>Trips</p>
+                <p>Review</p>
+                <p>More</p>
+            </div>
+            
+            <!-- User Actions -->
+            <div class="navbar__3">
+                <div class="navbar__3--money">
+                    <i id="globe" class="fa-solid fa-globe"></i>
+                    <div class="TzXjz d Vb"></div> 
+                    <p>| SDG</p>
+                </div>    
+                <div class="navbar__3--sign_in">
+                    <div>
+                        <p>Sign In</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>   
+        <!-- Main Container -->
+        <div class="big_container">
+            <!-- Page Title -->
+            <div class="title">
+                <h1>Where to?</h1>
+            </div>
+            
+            <!-- Category Navigation -->
+            <div class="categories">
+                <div class="categories__1">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Search All</p>    
+                </div>
+                <div class="categories__2">
+                    <i class="fa-solid fa-hotel"></i>
+                    <p>Hotels</p>    
+                </div>
+                <div class="categories__3">
+                    <i class="fa-solid fa-camera"></i>
+                    <p>Things to do</p>    
+                </div>
+                <div class="categories__4">
+                    <i class="fa-solid fa-utensils"></i>
+                    <p>Restaurants</p>    
+                </div>
+                <div class="categories__5">
+                    <i class="fa-solid fa-plane-circle-check"></i>
+                    <p>Flights</p>    
+                </div>
+                <div class="categories__6">
+                    <i class="fa-regular fa-house"></i>
+                    <p>Holiday Rentals</p>    
+                </div>
+            </div>
+
+            <!-- Search Section -->
+            <div class="search">
+                <div class="search__container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Places to go, things to do, hotels"/>
+                    <button>Search</button>
+                </div>
+            </div>
+            
+            <!-- Display Section 1 - Hero Banner -->
+            <div class="display_1_container">
+                <div class="display_1">
+                    <img src="https://plus.unsplash.com/premium_photo-1675756583711-ce312872227b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                         alt="Travel destination"/>
+                    <div class="display_1--content">
+                        <h1>Find things to do for everything you're into</h1>
+                        <p>Browse 400 000+ experiences and book with us</p>
+                        <div class="display_1--button">
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        
+            <!-- Display Section 2 - Award Categories -->
+            <div class="display_2">
+                <div class="display_2--heading">
+                    <h3>Do something award-winning</h3>
+                    <p>2025's Traveller's Choice Awards Best Things to Do</p>
+                </div>
+                <div class="carousel-track">
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7d/4b/2d/caption.jpg?w=300&h=-1&s=1" 
+                             alt="Top Experiences">
+                        <span class="label">Top Experiences</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7d/4b/b2/caption.jpg?w=600&h=-1&s=1" 
+                             alt="Top Attractions">
+                        <span class="label">Top Attractions</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7d/4c/8e/caption.jpg?w=600&h=-1&s=1" 
+                             alt="Bucket List">
+                        <span class="label">Bucket List</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7d/4c/de/caption.jpg?w=600&h=-1&s=1" 
+                             alt="Cultural & Historic">
+                        <span class="label">Cultural & Historic</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7d/4d/3b/caption.jpg?w=600&h=-1&s=1" 
+                             alt="Food & Drinks">
+                        <span class="label">Food & Drinks</span>
+                    </div>
+                </div>  
+            </div>    
+            
+            <!-- Display Section 2B - Iconic Places -->
+            <div class="display_2">
+                <div class="display_2--heading">
+                    <h3>Iconic places you need to see</h3>
+                </div>
+                <div class="carousel-track">
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c9/6c/08/caption.jpg?w=600&h=600&s=1" 
+                             alt="Rome, Italy">
+                        <span class="label">Rome, Italy</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=600&h=600&s=1" 
+                             alt="Paris, France">
+                        <span class="label">Paris, France</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/34/2d/28/caption.jpg?w=600&h=600&s=1&cx=662&cy=604&chk=v1_8984ddf3493edfb8c896" 
+                             alt="Las Vegas, NV">
+                        <span class="label">Las Vegas, NV</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/4c/08/1b/sun-peeks-through-behind.jpg?w=600&h=600&s=1" 
+                             alt="London, UK">
+                        <span class="label">London, UK</span>
+                    </div>
+                    <div class="award-card">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c5/7c/68/caption.jpg?w=600&h=600&s=1&cx=950&cy=1766&chk=v1_9ee2771da71f55a7ac6a" 
+                             alt="New York City, NY">
+                        <span class="label">New York City, NY</span>
+                    </div>
+                </div>  
+            </div>  
+            
+            <!-- Display Section 3 - Sponsored Content -->
+            <div class="display_3_container">
+                <div class="display_3">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/50/42/98/caption.jpg?w=1100&h=-1&s=1" 
+                         alt="Wanderer show"/>
+                    <div class="display_3--content">
+                        <div class="sponsor_container">
+                            <div class="sponsor">
+                                <img src="https://static.tacdn.com/img2/brand_refresh_2025/logos/logo.svg" 
+                                     alt="Tripadvisor Logo"/>
+                                <div>Sponsored by Wanderlab</div>
+                            </div>
+                        </div>
+                        <h1>Watch the Wanderer</h1>
+                        <p>Tripadvisor's award-winning travel series, now streaming on Amazon Prime Video</p>
+                        <div class="display_3--button">
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+            
+            <!-- Display Section 4 - Local Experiences -->
+            <div class="display_4">
+                <div class="display_4--heading">
+                    <h3>Explore experiences near Singapore</h3>
+                    <p>Seasonal faves you don't want to miss</p>
+                </div>
+                <div class="carousel-track--2">
+                    <div class="award-card--2">
+                        <div class="circle">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/90/53/8b/caption.jpg?w=300&h=300&s=1" 
+                             alt="Singapore Starry Night Cruise">
+                        <span class="label">
+                            <h4>Singapore Starry Night: Cruise</h4>
+                            <div class="label--rating">
+                                <p>4</p>
+                                <div class="circles">
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                </div>
+                                <p>(238)</p>
+                            </div>
+                            <p>from $99 per adult</p>
+                        </span>    
+                    </div>
+                    <div class="award-card--2">
+                        <div class="circle">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9d/e8/e0/caption.jpg?w=300&h=300&s=1" 
+                             alt="Local Hawker Food Tour">
+                        <span class="label">
+                            <h4>Local Hawker Food Tour</h4>
+                            <div class="label--rating">
+                                <p>5</p>
+                                <div class="circles">
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                </div>
+                                <p>(1,350)</p>
+                            </div>
+                            <p>from $109 per adult</p>
+                        </span>    
+                    </div>
+                    <div class="award-card--2">
+                        <div class="circle">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/3f/12/78/caption.jpg?w=300&h=300&s=1" 
+                             alt="Singapore River Cruise Tour">
+                        <span class="label">
+                            <h4>Singapore River Cruise Tour</h4>
+                            <div class="label--rating">
+                                <p>4</p>
+                                <div class="circles">
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                </div>
+                                <p>(60)</p>
+                            </div>
+                            <p>from $29 per adult</p>
+                        </span>    
+                    </div>
+                    <div class="award-card--2">
+                        <div class="circle">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/06/13/2e/caption.jpg?w=300&h=300&s=1" 
+                             alt="Water Light Show">
+                        <span class="label">
+                            <h4>Water Light Show</h4>
+                            <div class="label--rating">
+                                <p>5</p>
+                                <div class="circles">
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                </div>
+                                <p>(66)</p>
+                            </div>
+                            <p>from $105 per adult</p>
+                        </span>    
+                    </div>
+                    <div class="award-card--2">
+                        <div class="circle">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/00/75/ff/caption.jpg?w=300&h=300&s=1" 
+                             alt="Lion City Bike Tour">
+                        <span class="label">
+                            <h4>Lion City Bike Tour</h4>
+                            <div class="label--rating">
+                                <p>5</p>
+                                <div class="circles">
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                    <i class="fa-solid fa-circle" style="color: #00852f"></i>
+                                </div>
+                                <p>(5,406)</p>
+                            </div>
+                            <p>from $99 per adult</p>
+                        </span>    
+                    </div>
+                </div>  
+            </div> 
+            
+            <!-- Footer Section -->
+            <div class="footer">
+                <div class="footer__one">
+                    <div class="footer__one__s1">
+                        <h4>About Tripadvisor</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Press</a>
+                        <a href="#">Resources</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div class="footer__one__s2">
+                        <h4>Explore</h4>
+                        <a href="#">Write a review</a>
+                        <a href="#">Add a Place</a>
+                        <a href="#">Join</a>
+                        <a href="#">Help</a>
+                        <a href="#">Travel Stories</a>
+                    </div>
+                    <div class="footer__one__s2">
+                        <h4>Do Business With Us</h4>
+                        <a href="#">Owners</a>
+                        <a href="#">Business Advantage</a>
+                        <a href="#">Advertise with Us</a>
+                        <a href="#">Sponsored Placements</a>
+                        <a href="#">Access our Content API</a>
+                    </div>
+                </div>
+                <div class="footer__two">
+                    <div class="footer--end">
+                        <img src="https://static.tacdn.com/img2/brand_refresh_2025/logos/logo.svg" 
+                             alt="Tripadvisor Logo"/>
+                        <h1>Tripadvisor</h1>
+                    </div>
+                    <p>&copy; Tripadvisor 2025</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
