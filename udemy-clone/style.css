@@ -1,0 +1,152 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+   
+}
+
+.navbar__s1{
+    color:#a435f0;
+    align-items:center;
+}
+
+.navbar__s2{
+    border: 1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    width: 60%;
+    padding:10px;
+   
+}
+
+.navbar__s2 input{
+    border:none;
+    
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.catbar{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 50px 15px 50px;
+    flex-wrap: wrap;
+}
+
+.catbar__cat{
+    background-color: #A435F0;
+    padding:15px;
+    color: whitesmoke;
+    border-radius: 35px;
+}
+
+.sale_img img{
+    width:100%
+}
+
+
+.course{
+    padding:10px;
+}
+.course__card{
+    width:250px;
+    margin-top:20px;
+}
+
+.course__div{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course__card img{
+    width:250px;
+    height:50%;
+    border:2px solid black;
+}
+
+.recommend{
+    padding: 10px;
+}
+
+.recommend__container{
+    display:flex;
+    gap:10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+.recommend__card{
+    border:2px solid grey;
+    padding: 10px;
+    flex-grow:1;
+    flex-basis: 25%;
+} 
+
+.popular{
+    padding: 10px;
+}
+
+.popular__div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer__one{
+    display:flex;
+    
+
+}
+
+.footer__one__s1,.footer__one__s2{
+    padding: 20px 20px 20px 0px;
+    margin-left:50px;
+    margin-top:5px;
+}
+
+.footer__one__s1 p,.footer__one__s2 p{
+    padding: 5px 0px 5px 0px;
+
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+    align-items: center;
+}
+
+.footer__two p {
+    padding-top: 10px;
+}
